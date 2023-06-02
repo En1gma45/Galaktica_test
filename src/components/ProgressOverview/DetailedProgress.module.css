@@ -1,0 +1,56 @@
+.itemProgressContainer {
+  border-radius: var(--br-3xs);
+  background-color: var(--filters);
+  width: 17.06rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--courses-completed-size);
+  color: var(--white);
+  font-family: var(--default-text-list);
+  padding: 1rem 1.5rem;
+}
+.progressBarContainer {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+}
+.progressBar {
+  position: absolute;
+  top: 0;
+}
+.itemProgressIcon {
+  position: relative;
+  left: 31.5%;
+  top: 30%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.itemProgressInfo {
+  position: relative;
+  left: 5.5rem;
+  width: 7.63rem;
+  height: 2.44rem;
+}
+.itemProgressCounter {
+  width: 2.81rem;
+  height: 1.44rem;
+  display: flex;
+}
+.completedItems {
+  margin-right: .25rem;
+}
+.allItems {
+  font-size: var(--default-text-list-size);
+  color: var(--white-50);
+}
+.itemsType{
+  font-size: var(--menuLink-size);
+  color: var(--white-50);
+}

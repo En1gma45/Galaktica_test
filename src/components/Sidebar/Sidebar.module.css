@@ -1,0 +1,28 @@
+.sidebar,
+.sidebarMenu {
+  display: flex;
+  flex-direction: column;
+}
+.sidebarMenu {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--sidebar);
+  border-right: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 14.8rem;
+  height: 100%;
+  padding: 0 var(--padding-xs) var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--menuLink-size);
+  color: var(--menuLink);
+  font-family: var(--default-text-list);
+}

@@ -1,0 +1,63 @@
+.home,
+.homeIcon {
+  position: relative;
+}
+.homeIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.home {
+  font-weight: 500;
+}
+.buttonMenu_active {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  width: 13.31rem;
+  height: 2.75rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  color: var(--white);
+}
+.courses {
+  position: relative;
+}
+.buttonMenu {
+  border-radius: var(--br-3xs);
+  width: 13.31rem;
+  height: 2.75rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.buttonMenu:hover {
+  background-color: var(--color-cornflowerblue);
+  color: var(--white);
+}
+.sidebarLinksChild {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray);
+  width: 12.81rem;
+  height: 0.06rem;
+}
+.sidebarLinksMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--menuLink-size);
+  color: var(--menuLink);
+  font-family: var(--default-text-list);
+}

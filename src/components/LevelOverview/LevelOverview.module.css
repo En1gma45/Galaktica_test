@@ -1,0 +1,98 @@
+.progressCard {
+  border-radius: var(--br-3xs);
+  background-color: var(--filters);
+  width: 16.5rem;
+  height: 27.13rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--default-text-list-size);
+  color: var(--white-30);
+  font-family: var(--default-text-list);
+  margin-bottom: 2rem;
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.cardTitle {
+  font-size: var(--progress-name-size);
+  font-weight: 500;
+  color: var(--white);
+  text-align: left;
+}
+.wavingHand {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.75rem;
+}
+.wavingHandIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardSubTitle {
+  margin-top: 1rem;
+  line-height: 130%;
+  display: inline-block;
+  width: 11.31rem;
+}
+.levelProgress {
+  position: relative;
+  width: 100%;
+  height: 12.5rem;
+  margin: 1.75rem auto;
+  font-size: var(--font-size-29xl);
+  color: var(--white);
+}
+.planetM10 {
+  position: relative;
+  height: 80%;
+  width: 80%;
+  max-width: 100%;
+  top: 10%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.progressBar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.levelContainer {
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.levelTitle {
+  line-height: 100%;
+  display: inline-block;
+}
+.levelSubTitleContainer {
+  height: 31.43%;
+  width: 25%;
+  border-radius: var(--br-11xl);
+  background-color: var(--white-30);
+  backdrop-filter: blur(30px);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--menuLink-size);
+}
+.levelSubTitle {
+  line-height: 100%;
+}

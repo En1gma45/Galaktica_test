@@ -1,0 +1,27 @@
+.exitIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.exitIcon,
+.signOut {
+  position: relative;
+}
+.buttonMenu {
+  border-radius: var(--br-3xs);
+  width: 13.31rem;
+  height: 2.75rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--menuLink-size);
+  color: var(--menuLink);
+  font-family: var(--default-text-list);
+  cursor: pointer;
+}

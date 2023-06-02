@@ -1,0 +1,27 @@
+.dove1Icon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logotypeIcon {
+  position: relative;
+  width: 4.12rem;
+  height: 0.88rem;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.logoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-xs);
+  align-items: flex-start;
+  justify-content: center;
+}

@@ -1,0 +1,124 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 14.8rem;
+  background-color: var(--filters);
+  width: calc(100vw - 14.8rem);
+  height: 4.25rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--default-text-list-size);
+  color: var(--white);
+  font-family: var(--default-text-list);
+}
+.iconLightSearch {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.iconLightSearch,
+.searchInput {
+  position: relative;
+  opacity: 0.3;
+}
+.searchInput {
+  background-color: var(--avatar-bg-color);
+  border: none;
+  width: 20rem;
+  color: var(--white);
+}
+.search {
+  border-radius: var(--br-3xs);
+  background-color: var(--avatar-bg-color);
+  width: 23.75rem;
+  height: 2.75rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.settingsWrapper{
+  height: 3rem;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.langSelector {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.en {
+  position: relative;
+}
+.iconLightArrowDown {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+}
+.notificationIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 4.13rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.profile {
+  padding: var(--padding-9xs) var(--padding-3xs);
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--menuLink-size);
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.userInfo {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.userWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.roleWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+  color: var(--menuLink);
+}
+.avatarIcon {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}

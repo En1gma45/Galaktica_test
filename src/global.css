@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+  background-color: var(--bg-color);
+}
+:root {
+  /* fonts */
+  --default-text-list: Roboto;
+
+  /* font sizes */
+  --font-size-xs: 0.75rem;
+  --menuLink-size: 0.88rem;
+  --default-text-list-size: 1rem;
+  --courses-completed-size: 1.25rem;
+  --completed-size: 1.13rem;
+  --font-size-29xl: 3rem;
+  --progress-name-size: 1.5rem;
+
+  /* Colors */
+  --menuLink: #939495;
+  --color-gray-100: #8c8b8e;
+  --sidebar: #28292c;
+  --filters: #28292b;
+  --avatar-bg-color: #222325;
+  --bg-color: #212224;
+  --color-gray-200: #202225;
+  --white-30: rgba(255, 255, 255, 0.3);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-5: rgba(255, 255, 255, 0.05);
+  --white: #fff;
+  --color-darkslategray: #333539;
+  --color-cornflowerblue: #7789ea;
+
+  /* Gaps */
+  --gap-5xl: 1.5rem;
+  --gap-xs: 0.75rem;
+  --gap-9xs: 0.25rem;
+  --gap-5xs: 0.5rem;
+  --gap-8xs: 0.31rem;
+  --gap-base: 1rem;
+
+  /* Paddings */
+  --padding-3xs: 0.63rem;
+  --padding-5xl: 1.5rem;
+  --padding-9xs: 0.25rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+  --padding-xs: 0.75rem;
+  --padding-xl: 1.25rem;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-11xl: 30px;
+}

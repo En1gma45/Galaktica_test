@@ -1,0 +1,151 @@
+.frameChild {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+}
+.newAdditions1 {
+  position: relative;
+  font-weight: 600;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.detailsIcon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.frameParent {
+  width: 20.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--courses-completed-size);
+}
+.coursesIcon,
+.div {
+  position: absolute;
+  top: 16.67%;
+  left: 65.22%;
+}
+.coursesIcon {
+  height: 100%;
+  width: 52.17%;
+  top: 0;
+  right: 50%;
+  bottom: 0;
+  left: -2.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.coursesCounter {
+  position: relative;
+  width: 2.88rem;
+  height: 1.5rem;
+}
+.div1,
+.userIcon {
+  position: absolute;
+  top: 16.67%;
+  left: 48.39%;
+}
+.userIcon {
+  height: 100%;
+  width: 38.71%;
+  top: 0;
+  right: 61.29%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.userCounter {
+  position: relative;
+  width: 3.88rem;
+  height: 1.5rem;
+}
+.counters,
+.frameItem {
+  border-radius: var(--br-8xs);
+}
+.counters {
+  background-color: var(--white-5);
+  backdrop-filter: blur(30px);
+  width: 20.75rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleWrapper {
+  position: relative;
+  width: 6.58rem;
+  height: 4.13rem;
+}
+.div2,
+.plusIcon {
+  position: relative;
+}
+.plusIcon {
+  width: 1rem;
+  height: 1rem;
+}
+.div2 {
+  font-weight: 500;
+}
+.userCounter1 {
+  position: absolute;
+  height: 24.24%;
+  width: 30.38%;
+  top: 37.88%;
+  right: 34.49%;
+  bottom: 37.88%;
+  left: 35.13%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer,
+.newAdditions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.newAdditions {
+  border-radius: var(--br-3xs);
+  background-color: var(--sidebar);
+  width: 22.75rem;
+  flex-direction: column;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--menulink-size);
+  color: var(--white);
+  font-family: var(--default-text-list);
+}

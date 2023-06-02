@@ -1,0 +1,70 @@
+{
+    "username": "Peter",
+    "currentLevel": 4,
+    "currentProgress": 37,
+    "currentCourseIcon": "/planet-m-10.svg",
+    "allCourses": [
+        {
+            "id": 1,
+            "courseIcon": "/planet-m-10.svg",
+            "courseProgress": 100
+        },
+        {
+            "id": 2,
+            "courseIcon": "/planet-m-10.svg",
+            "courseProgress": 100
+        },
+        {
+            "id": 3,
+            "courseIcon": "/planet-m-10.svg",
+            "courseProgress": 100
+        },
+        {
+            "id": 4,
+            "courseIcon": "/planet-m-10.svg",
+            "courseProgress": 37
+        },
+        {
+            "id": 5,
+            "courseIcon": "/planet-m-10.svg",
+            "courseProgress": 0
+        }
+    ],
+    "detailedProgressInfo": [
+        {
+            "itemLogo": "/Courses.svg",
+            "completedItems": 3,
+            "allItems": 15,
+            "title": "Courses completed"
+        },
+        {
+            "itemLogo": "/folder.svg",
+            "completedItems": 6,
+            "allItems": 10,
+            "title": "Folders add"
+        },
+        {
+            "itemLogo": "/book.svg",
+            "completedItems": 3,
+            "allItems": 19,
+            "title": "Books read"
+        }
+    ],
+    "additionalResources": [
+        {
+            "coursesCount": 10,
+            "userCount": 2873,
+            "photoCount": 10
+        },
+        {
+            "coursesCount": 10,
+            "userCount": 2873,
+            "photoCount": 10
+        },
+        {
+            "coursesCount": 10,
+            "userCount": 2873,
+            "photoCount": 10
+        }
+    ]
+}

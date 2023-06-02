@@ -1,0 +1,38 @@
+.home {
+  position: relative;
+  background-color: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  min-height: 800px;
+  text-align: left;
+  font-size: var(--completed-size);
+  color: var(--white);
+  font-family: var(--default-text-list);
+}
+.dashboard {
+  position: relative;
+  width: calc(100% - 18.5rem);
+  left: 14.8rem;
+  top: 4.25rem;
+  padding: 2rem;
+}
+.newAdditionsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  gap: var(--gap-5xl);
+}
+.generalProgress {
+  display: flex;
+  gap: var(--gap-5xl);
+}
+.coursesProgress{
+  display: flex;
+  flex-direction: column;
+}
+.detailedProgressContainer{
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap-base);
+}
